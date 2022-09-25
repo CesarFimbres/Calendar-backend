@@ -10,7 +10,6 @@ const createUser = async (req, res = response) => {
 
 	try {
 
-
 		let user = await User.findOne({ email })
 
 		if (user) {
